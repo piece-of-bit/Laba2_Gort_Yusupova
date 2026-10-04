@@ -1,5 +1,4 @@
 import math
-import sys
 from contextlib import redirect_stdout
 
 N = 4
