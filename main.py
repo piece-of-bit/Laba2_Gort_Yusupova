@@ -307,8 +307,8 @@ def process_matrix(A_orig, name):
     cond2 = math.sqrt(lambda_max[0] / lambda_min[0])
 
     print("Числа обусловленности:")
-    print(f"Кубическая норма (L1): {cond1:.6f}")
-    print(f"Октаэдрическая норма: {cond_inf:.6f}")
+    print(f"Октаэдрическая норма (L1): {cond1:.6f}")
+    print(f"Кубическая норма: {cond_inf:.6f}")
     print(f"Евклидова норма (L2): {cond2:.6f}")
 
     # Формируем вектор b
